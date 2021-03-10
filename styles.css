@@ -15,15 +15,26 @@ top:50%;
 left: 50%;
 transform: translate(-50%, -50%);
 color:whitesmoke;
-font-size: 50px;}
+font-size: 30px;}
 
 .About{text-align: center;
 word-wrap: normal;
 width: 600px;
-position:fixed;
-margin:100px;}
+position:relative;
+margin:20px;}
 
-.icon{color: whitesmoke;
-background-color: darkgrey;}
+.icon{
+background-color: rgb(66, 66, 66);}
 
 .icon p{color: whitesmoke;}
+
+*{box-sizing: border-box}
+.column {float: left;
+    width: 25%;
+    padding: 80px;}
+
+.row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
