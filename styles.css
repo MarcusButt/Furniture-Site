@@ -1,25 +1,33 @@
 .hero {background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
 url(hero.jpg);
+height: 100vh;
 display: flex;
-align-items: center;
-justify-content: center;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 position: relative;
-text-align: center;}
+text-align: center;
+align-items: center;
+justify-content: center;}
 
-.hero-text {text-align: center;
-display: flex;
+.hero-text {position: relative;
+align-items: center;
+justify-content: center;
 color:whitesmoke;
 font-size: 30px;}
+
+.hero-logo {position:absolute;
+justify-self: flex-start;
+align-self: flex-start;
+padding-top: 20px;
+padding-left: 20px;}
 
 .About {text-align: center;
 align-items: center;
 word-wrap:normal;
 position:relative;
-padding-top: 50px;
-padding-bottom: 50px;}
+padding-top: 25px;
+padding-bottom: 25px;}
 
 .about-text {text-align: center;
 margin-left: 450px;
@@ -27,7 +35,8 @@ margin-right: 450px;
 word-wrap: normal;
 font-size: large;}
 
-.icon {height: 300px;
+.icon {padding-top: 50px;
+padding-bottom: 50px;
 background-color: rgb(66, 66, 66);}
 
 .icon p {color: whitesmoke;
