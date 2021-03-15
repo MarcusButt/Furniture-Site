@@ -10,13 +10,13 @@ text-align: center;
 align-items: center;
 justify-content: center;}
 
-.hero-text {position: relative;
+.hero-text {position: static;
 color:whitesmoke;
 font-size: 30px;}
 
 .hero-logo {position:absolute;
-justify-self: flex-start;
-align-self: flex-start;
+top:5px;
+left:5px;
 padding-top: 20px;
 padding-left: 20px;}
 
