@@ -15,13 +15,12 @@ color:whitesmoke;
 font-size: 30px;}
 
 .hero-logo {position:absolute;
-justify-content: flex-start;
 justify-self: flex-start;
 align-self: flex-start;
 padding-top: 20px;
 padding-left: 20px;}
 
-.About {text-align: center;
+.about {text-align: center;
 align-items: center;
 word-wrap:normal;
 position:relative;
