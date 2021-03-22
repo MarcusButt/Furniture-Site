@@ -36,23 +36,27 @@ word-wrap: normal;
 font-size: large;}
 
 .icon {display: flex;
-padding-top: 75px;
-padding-bottom: 75px;
-background-color: rgb(41, 41, 41);
-justify-content: right;
-text-align: right;}
+padding-top: 4rem;
+padding-bottom: 4rem;
+padding-left: 10%;
+padding-right: 10%;
+background-color: rgb(41, 41, 41);}
 
-.icon p {color: whitesmoke;
+.icon-text {color: whitesmoke;
+position: relative;
 font-family: Arial, Helvetica, sans-serif;
 text-align: left;}
+
+.icon-img{position: relative;}
 
 *{box-sizing: border-box}
 
 .column {float: left;
-width: 12.5%;
-padding: 7px;
-word-wrap: normal;
-justify-content: right;}
+display: flex;
+justify-content: space-between;
+width: 25%;
+padding: 2rem;
+word-wrap: normal;}
 
 .pre-grid {padding-top: 60px;
 padding-bottom: 20px;
