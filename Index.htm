@@ -104,7 +104,7 @@
                     ullamco laboris nisi ut aliquip ex ea commodo 
                     consequat.</p>
             </div>
-            <div>
+            <div style="display: block;">
                 <div class="blog-column">
                     <div style="position: relative;">
                         <img class="blog-img" src="living.jpg" alt="ocean views">
@@ -161,9 +161,19 @@
                 <p class="contact-text"><br><b>Email:</b> info@example.com</p>
                 <p class="contact-text"><br><b>Fax:</b> +44 987 065 909</p>
             </div>
-            <form>
-
-            </form>
+            <div class="comments">
+                <form>
+                    <label for="name">Your Name</label><br>
+                    <input type="text" id="name" name="name">
+                    <label for="email">Your Email</label>
+                    <input type="text" id="email" name="email"><br>
+                    <label for="title">Your Title</label><br>
+                    <input type="text" id="title" name="title"><br>
+                    <br><textarea name="comment" rows="5" cols="50">Your Comments
+                    </textarea><br>
+                    <br><input type="submit" value="Send Message">
+                </form>
+            </div>
         </section>
     </body>
 </html>
