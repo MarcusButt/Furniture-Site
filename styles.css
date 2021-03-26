@@ -178,7 +178,9 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 .contact{background-color: whitesmoke;
 padding-top: 5rem;
-display: inline-flex;}
+padding-bottom: 5rem;
+display: inline-flex;
+}
 
 .contact-info{text-align: left;
 width: 40%;
@@ -188,5 +190,11 @@ padding: 3rem;}
 color: rgb(54, 56, 56);}
 
 .comments{width: 60%;
+padding: 4rem;
 display: flex;
 text-align: left;}
+
+input, textarea{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color:rgb(74, 74, 77)}
+
+input:focus, textarea:focus{border:2px solid rgb(34, 34, 34)}
