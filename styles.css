@@ -192,7 +192,38 @@ color: rgb(54, 56, 56);}
 .comments{width: 67%;
 padding: 4rem;
 display: flex;
-text-align: left;}
+text-align: left;
+justify-content: space-evenly;}
+
+.form{justify-content: space-between;}
+
+.form-name{color: rgb(74, 74, 77);
+width: 47%;
+padding:0.75rem;
+font-size: medium;
+display: inline-flex;}
+
+.form-email{color: rgb(74, 74, 77);
+width: 47%;
+padding:0.75rem;
+font-size: medium;
+display: inline-flex;}
+
+.form-title{color: rgb(74, 74, 77);
+padding:0.75rem;
+width:100%;
+font-size: medium;}
+
+.form-comments{padding: 0.75rem;
+color: rgb(74, 74, 77);}
+
+.form-submit-button{background: rgb(41, 41, 41);
+background-color: rgb(41, 41, 41);
+width: 10rem;
+padding: 1rem;
+color: whitesmoke;
+align-self: center;
+border: none;}
 
 input, textarea{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 color:rgb(74, 74, 77)}
