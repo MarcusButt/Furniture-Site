@@ -1,5 +1,9 @@
 *{padding:0px; margin:0px;}
 
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .hero {background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
 url(hero.jpg);
 height: 90vh;
@@ -37,6 +41,7 @@ word-wrap: normal;
 font-size:medium;}
 
 .icon {display: flex;
+justify-content: space-between;
 padding-top: 4rem;
 padding-bottom: 4rem;
 padding-left: 12%;
@@ -45,6 +50,7 @@ background-color: rgb(41, 41, 41);}
 
 .icon-text {color: whitesmoke;
 position: relative;
+padding-left: 1rem;
 font-family: Arial, Helvetica, sans-serif;
 text-align: left;}
 
@@ -55,7 +61,6 @@ text-align: left;}
 .column {float: left;
 display: flex;
 align-items: center;
-justify-content: space-between;
 width: 25%;
 padding: 2rem;
 padding-left: 3.5rem;
