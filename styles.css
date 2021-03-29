@@ -189,40 +189,46 @@ display: inline-flex;
 }
 
 .contact-info{text-align: left;
-width: 33%;
+font-size: 22px;
+width: 40%;
 padding: 3rem;}
 
-.contact-text{font-family: Arial, Helvetica, sans-serif;
-color: rgb(54, 56, 56);}
+.contact-text{font-family:Verdana, Geneva, Tahoma, sans-serif ;
+font-size: 15px;
+line-height: 1.4rem;
+color: rgb(71, 73, 73);}
 
-.comments{width: 67%;
-padding: 4rem;
+.comments{width: 60%;
+padding-top: 4rem;
+justify-content: center;
 display: flex;
-text-align: left;
-justify-content: space-evenly;}
+text-align: left;}
 
-.form{justify-content: space-between;}
+.form{width: 80%;}
 
-.form-name{color: rgb(74, 74, 77);
+.form-name{color: rgb(93, 93, 97);
 width: 47%;
 padding:0.75rem;
 margin-right: 6%;
 font-size: medium;
 display: inline-flex;}
 
-.form-email{color: rgb(74, 74, 77);
+.form-email{color: rgb(93, 93, 97);
 width: 47%;
 padding:0.75rem;
 font-size: medium;
 display: inline-flex;}
 
-.form-title{color: rgb(74, 74, 77);
+.form-title{color: rgb(93, 93, 97);
 padding:0.75rem;
 width:100%;
 font-size: medium;}
 
 .form-comments{padding: 0.75rem;
-color: rgb(74, 74, 77);}
+color: rgb(93, 93, 97);
+height: 10rem;
+width: 100%;
+font-size: medium;}
 
 .form-submit-button{background: rgb(41, 41, 41);
 background-color: rgb(41, 41, 41);
@@ -232,8 +238,8 @@ color: whitesmoke;
 align-self: center;
 border: none;}
 
-input, textarea{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-color:rgb(74, 74, 77)}
+input, textarea{font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 input:focus, textarea:focus{border:2px solid rgb(34, 34, 34)}
 
@@ -241,12 +247,10 @@ footer{background-color: rgb(41, 41, 41);
 color: whitesmoke;
 padding-top: 9rem;
 padding-bottom: 9rem;
-padding-left: 5rem;
-font-family:'Times New Roman', Times, serif ;}
+padding-left: 5rem;}
 
-.footer-text{font-size: 18px;
-font-style: normal;
+.footer-text{font-size: 15px;
 font-weight: normal;
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+font-family: Verdana, Geneva, Tahoma, sans-serif}
 
 .media-icons{color: whitesmoke;}
