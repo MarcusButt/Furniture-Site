@@ -268,10 +268,19 @@ font-family: Verdana, Geneva, Tahoma, sans-serif}
 @media only screen and (max-width: 700px) {
     .column{width: 50%;
     }
+
     .icon{display: block;
         height: auto;
         overflow: auto;
     }
+
+    .blog-columns{
+        display: block;
+    }   
+
+    .blog-column{
+        width: 100%;
+    }   
 }
 
 @media only screen and (max-width: 400px) {
@@ -280,8 +289,21 @@ font-family: Verdana, Geneva, Tahoma, sans-serif}
     
     .column{width: 100%;
     }
+    
     .icon{display: block;
         height: auto;
         overflow: auto;
     }
+
+    .image-grid{
+        display: none;
+    }
+
+    .blog-columns{
+        display: block;
+    }   
+
+    .blog-column{
+        width: 100%;
+    }   
 }
