@@ -248,7 +248,10 @@ border: none;}
 input, textarea{font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-input:focus, textarea:focus{border:2px solid rgb(34, 34, 34)}
+input::placeholder{color: rgb(93, 93, 97)}
+
+input:focus, textarea:focus{border:2px solid rgb(34, 34, 34);
+color: black;}
 
 footer{background-color: rgb(41, 41, 41);
 color: whitesmoke;
