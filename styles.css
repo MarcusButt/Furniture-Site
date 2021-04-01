@@ -249,6 +249,7 @@ align-self: center;
 border: none;}
 
 input, textarea{font-family: Verdana, Geneva, Tahoma, sans-serif;
+resize:none;
 }
 
 input::placeholder{color: rgb(93, 93, 97)}
@@ -258,8 +259,8 @@ color: black;}
 
 footer{background-color: rgb(41, 41, 41);
 color: whitesmoke;
-padding-top: 9rem;
-padding-bottom: 9rem;
+padding-top: 7rem;
+padding-bottom: 7rem;
 padding-left: 5rem;}
 
 .footer-text{font-size: 15px;
