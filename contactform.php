@@ -1,16 +1,15 @@
 <?php
 
-if($_POST['submit']) {
-    $name = $_POST['name'];
-    $title = $_POST['title'];
-    $comment = $_POST['comment'];
-    $email = $_POST['email'];
+if($_POST["submit"]) {
+    $mailTo="mjcb32@mun.ca";
+    $name = $_POST["name"];
+    $title = $_POST["title"];
+    $comment = $_POST["comment"];
+    $email = $_POST["email"];
 
-    $mailTo = "mjcb32@mun.ca";
-    $headers = "From: ".$email;
-    $txt = "You have received an email from ".$name.".\n\n".$message;
+    $txt = "You have received an email from ".$name.".\n\n".$comment;
 
-    mail($mailTo, $txt, $headers);
+    mail($mailTo, $txt, "From: $name <$email>");
 }
 
 ?>
