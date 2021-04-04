@@ -137,7 +137,7 @@ line-height: 24px;}
 
 .blog{position: relative;
 background-color: whitesmoke;
-padding-bottom: 100px;
+padding-bottom: 5rem;
 text-align:left;
 padding-left: 4rem;
 padding-right: 4rem;
@@ -263,13 +263,18 @@ padding-top: 7rem;
 padding-bottom: 7rem;
 padding-left: 5rem;}
 
+.footer-about{
+    width:20%
+}
+
 .footer-text{font-size: 15px;
 font-weight: normal;
 font-family: Verdana, Geneva, Tahoma, sans-serif}
 
-.media-icons{color: whitesmoke;}
+.media-icons{color: whitesmoke;
+}
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
     .column{width: 50%;
     }
 
@@ -277,6 +282,10 @@ font-family: Verdana, Geneva, Tahoma, sans-serif}
         height: auto;
         overflow: auto;
     }
+
+    .image-grid {
+        display: none;
+        }
 
     .testimonial-text{color: whitesmoke;
         font-size: 16px;
@@ -286,13 +295,59 @@ font-family: Verdana, Geneva, Tahoma, sans-serif}
         font-size: 20px;
     }
 
+    .blog{
+        padding-bottom: 1rem;
+    }
+
     .blog-columns{
         display: block;
     }   
 
     .blog-column{
         width: 100%;
-    }   
+    }  
+
+    .contact{
+        display: block;
+    }
+
+    .contact-info{
+        width: 100%;
+    }
+
+    .comments{
+        width: 100%;
+        padding-top: 2rem;
+    }
+
+    .form-name{
+        width: 100%;
+    }
+
+    .form-email::before{
+        content:"\a\a";
+        white-space: pre;
+    }
+
+    .form-email{
+        width: 100%;
+    }
+
+    footer{
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    .footer-about{
+        width:80%;
+        text-align: center;
+    }
+
+    .media-icons{
+        text-align: center;
+        width: 80%;
+    }
+
 }
 
 @media only screen and (max-width: 400px) {
@@ -316,7 +371,11 @@ font-family: Verdana, Geneva, Tahoma, sans-serif}
     }
 
     .image-grid{
-        display: none;
+        display:none;
+    }
+
+    .blog{
+        padding-bottom: 1rem;
     }
 
     .blog-columns{
@@ -325,5 +384,47 @@ font-family: Verdana, Geneva, Tahoma, sans-serif}
 
     .blog-column{
         width: 100%;
-    }   
+    }  
+    
+    .contact{
+        display: block;
+        padding-top: 2rem;
+    }
+
+    .contact-info{
+        width: 100%;
+    }
+
+    .comments{
+        width: 100%;
+        padding-top: 2rem;
+    }
+
+    .form-name{
+        width: 100%;
+    }
+
+    .form-name:after {
+        content:"\a";
+        white-space: pre;
+    }
+
+    .form-email{
+        width: 100%;
+    }
+
+    footer{
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    .footer-about{
+        width:80%;
+        text-align: center;
+    }
+
+    .media-icons{
+        text-align: center;
+        width: 80%;
+    }
 }
