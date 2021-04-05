@@ -283,7 +283,12 @@ font-family: Verdana, Geneva, Tahoma, sans-serif}
 .media-icons{color: whitesmoke;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1080px) {
+    
+    .width-container{
+        display: block;
+    }
+    
     .column{width: 50%;
     }
 
@@ -345,16 +350,21 @@ font-family: Verdana, Geneva, Tahoma, sans-serif}
     footer{
         padding-top: 5rem;
         padding-bottom: 5rem;
+        padding-left: 0;
     }
 
     .footer-about{
-        width:80%;
+        width:100%;
         text-align: center;
+        margin-right: auto;
+        margin-left: auto;
     }
 
     .media-icons{
         text-align: center;
-        width: 80%;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
 }
@@ -363,6 +373,10 @@ font-family: Verdana, Geneva, Tahoma, sans-serif}
     
     p{font-size: small;}
     
+    .width-container{
+        display: block;
+    }
+
     .column{width: 100%;
     }
 
@@ -427,15 +441,16 @@ font-family: Verdana, Geneva, Tahoma, sans-serif}
     footer{
         padding-top: 5rem;
         padding-bottom: 5rem;
+        padding-left: 0;
     }
 
     .footer-about{
-        width:80%;
+        width:100%;
         text-align: center;
     }
 
     .media-icons{
         text-align: center;
-        width: 80%;
+        width: 100%;
     }
 }
