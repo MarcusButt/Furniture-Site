@@ -138,12 +138,9 @@ line-height: 24px;}
 .blog{position: relative;
 background-color: whitesmoke;
 padding-bottom: 4rem;
-text-align:left;
 padding-left: 4rem;
 padding-right: 4rem;
 overflow: auto;
-margin-left: auto;
-margin-right: auto;
 }
 
 .width-container{
@@ -286,8 +283,8 @@ font-family: Verdana, Geneva, Tahoma, sans-serif}
 @media only screen and (max-width: 1080px) {
     
     .width-container{
-        display: block;
-    }
+        display: inline-block;
+        }
     
     .column{width: 50%;
     }
@@ -311,15 +308,13 @@ font-family: Verdana, Geneva, Tahoma, sans-serif}
 
     .blog{
         padding-bottom: 1rem;
+        text-align: center;
     }
-
-    .blog-columns{
-        display: block;
-    }   
 
     .blog-column{
         width: 100%;
-    }  
+        max-width: 750px;
+    } 
 
     .contact{
         display: block;
@@ -401,6 +396,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif}
         padding-bottom: 1rem;
         padding-left: 1rem;
         padding-right: 1rem;
+        text-align: center;
     }
 
     .blog-columns{
