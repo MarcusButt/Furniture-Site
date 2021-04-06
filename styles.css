@@ -137,7 +137,7 @@ line-height: 24px;}
 
 .blog{position: relative;
 background-color: whitesmoke;
-padding-bottom: 4rem;
+padding-bottom: 2rem;
 padding-left: 4rem;
 padding-right: 4rem;
 overflow: auto;
@@ -335,6 +335,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif}
     .blog-column{
         width: 100%;
         max-width: 750px;
+        float: none;
     } 
 
     .contact{
@@ -449,6 +450,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif}
 
     .blog-column{
         width: 100%;
+        float: none;
     }  
     
     .contact{
