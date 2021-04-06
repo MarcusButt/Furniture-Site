@@ -224,6 +224,7 @@ text-align: left;}
 .form-name{color: rgb(93, 93, 97);
 width: 47%;
 padding:0.75rem;
+margin-bottom: 1rem;
 margin-right: 6%;
 font-size: medium;
 display: inline-flex;}
@@ -231,11 +232,13 @@ display: inline-flex;}
 .form-email{color: rgb(93, 93, 97);
 width: 47%;
 padding:0.75rem;
+margin-bottom: 1rem;
 font-size: medium;
 display: inline-flex;}
 
 .form-title{color: rgb(93, 93, 97);
 padding:0.75rem;
+margin-bottom: 1rem;
 width:100%;
 font-size: medium;}
 
@@ -243,6 +246,7 @@ font-size: medium;}
 color: rgb(93, 93, 97);
 height: 10rem;
 width: 100%;
+margin-bottom: 1rem;
 font-size: medium;}
 
 .form-submit-button{background: rgb(41, 41, 41);
@@ -308,6 +312,8 @@ font-family: Verdana, Geneva, Tahoma, sans-serif}
 
     .blog{
         padding-bottom: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
         text-align: center;
     }
 
@@ -322,6 +328,8 @@ font-family: Verdana, Geneva, Tahoma, sans-serif}
 
     .contact-info{
         width: 100%;
+        padding-left: 10%;
+        padding-right: 10%;
     }
 
     .comments{
@@ -414,6 +422,8 @@ font-family: Verdana, Geneva, Tahoma, sans-serif}
 
     .contact-info{
         width: 100%;
+        padding-left: 10%;
+        padding-right: 10%;
     }
 
     .comments{
