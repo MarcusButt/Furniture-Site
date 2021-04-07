@@ -10,7 +10,9 @@
         <title>Furniture Web Page</title>
     </head>
     <body>
-
+        <button onclick="topFunction()" id="TopButton" title="Go to top">
+            <i class="fas fa-arrow-alt-circle-up fa-3x"></i>
+        </button>
         <section class="hero">
             <div class="hero-logo">
                 <img src="logo.svg" alt=logo style="height: 50%">
@@ -189,5 +191,25 @@
                 <i class="fab fa-linkedin fa-2x" style="padding-top: 1rem;padding-left: 1rem;"></i>
             </div>
         </footer>
+    
+        <script>
+            mybutton = document.getElementById("TopButton");
+            
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+                if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            }
+            
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+            </script>
+            
     </body>
 </html>
