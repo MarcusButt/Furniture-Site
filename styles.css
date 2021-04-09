@@ -314,7 +314,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif}
     
     .column{
         width: 50%;
-        justify-content: space-evenly;
+        justify-content: center;
     }
 
     .icon{display: block;
@@ -424,6 +424,8 @@ font-family: Verdana, Geneva, Tahoma, sans-serif}
     .icon{display: block;
         height: auto;
         overflow: auto;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
     }
 
     .icon-text{
