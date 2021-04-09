@@ -311,7 +311,9 @@ font-family: Verdana, Geneva, Tahoma, sans-serif}
         display: inline-block;
         }
     
-    .column{width: 50%;
+    .column{
+        width: 50%;
+        justify-content: space-evenly;
     }
 
     .icon{display: block;
