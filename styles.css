@@ -5,7 +5,7 @@ p{
 }
 
 .hero {background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-url(hero.jpg);
+url(img/hero.jpg);
 height: 90vh;
 display: flex;
 background-position: center;
@@ -418,7 +418,8 @@ font-family: Verdana, Geneva, Tahoma, sans-serif}
         display: block;
     }
 
-    .column{width: 100%;
+    .column{
+        width: 100%;
     }
 
     .icon{display: block;
