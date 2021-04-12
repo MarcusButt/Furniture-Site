@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script src="https://kit.fontawesome.com/bf69cc43db.js" crossorigin="anonymous"></script>
+        <meta charset="UTF-8">
+        <meta name="description" content="Amazing furniture for every budget, look at all of these wonderful options">
+        <meta name="keywords" content="furniture, chair, sofa, bed, table, mug">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Furniture Web Page</title>
+    </head>
+    <body>
+        <button onclick="topFunction()" id="TopButton" title="Go to top">
+            <i class="fas fa-arrow-alt-circle-up fa-3x"></i>
+        </button>
+        <section class="hero">
+            <div class="hero-logo">
+                <img src="logo.svg" alt=logo style="height: 50%">
+            </div>
+            <div class="hero-text">            
+                <h1><b>We love our furniture</b> <br> <i>and we think you will too</i> </h1>
+            </div>
+        </section>
+
+        <section class="about">
+                <h2><span style="font-size:30px"><b>About Our Furniture</b></span></h2>
+                <p class="about-text"><br>Lorem ipsum dolor sit amet, 
+                    consectetur adipiscing elit, sed do eiusmod tempor 
+                    incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation 
+                    ullamco laboris nisi ut aliquip ex ea commodo 
+                    consequat.</p>
+        </section>
+
+        <section class="icon">
+            <div class="width-container">
+                <div class="column">
+                    <img class="icon-img" src="sofa.png" alt="sofa" Style="Width:50px">
+                    <p class="icon-text">4 <br>Unique Sofas</p>  
+                </div>
+                <div class="column">
+                    <img class="icon-img" src="table.png" alt="table" Style="Width:50px">
+                    <p class="icon-text"> 2 <br>Unique Tables </p>
+                </div>
+                <div class="column">
+                    <img class="icon-img" src="chair.png" alt="chair" Style="Width:50px">
+                    <p class="icon-text"> 12 <br>Unique Chairs</p>
+                </div>
+                <div class="column">
+                    <img class="icon-img" src="mug.png" alt="mug" Style="Width:50px">
+                    <p class="icon-text"> 124 <br>Unique Mugs </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="grid">
+            <div class="pre-grid">
+                <h2><span style="font-size: 30px;"> This is what furniture is </span></h2>
+                <p class="about-text"> <br>Lorem ipsum dolor sit amet, 
+                    consectetur adipiscing elit, sed do eiusmod tempor 
+                    incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation 
+                    ullamco laboris nisi ut aliquip ex ea commodo 
+                    consequat.</p>
+            </div>
+            <div class="image-grid">
+                <div class="item1">
+                    <img src="mug1.jpg" class="grid_img" alt="mug1">
+                </div>
+                <div class="item2">
+                    <img src="mug2.jpg" class="grid_img" alt="mug2">
+                </div>
+                <div class="item3">
+                    <img src="chair2.jpg" class="grid_img" alt="chair2">
+                </div>
+                <div class="item4">
+                    <img src="table1.jpg" class="grid_img" alt="table1">
+                </div>
+                <div class="item5">
+                    <h2 class="grid-text"><b>Great, right?</b></h2>
+                </div>
+                <div class="item6">
+                    <img src="sofa.jpg" class="grid_img" alt="sofa">
+                </div>
+                <div class="item7">
+                    <img src="mug3.jpg" class="grid_img" alt="mug3">
+                </div>
+                <div class="item8">
+                    <img src="chair3.jpg" class="grid_img" alt="chair3">
+                </div>
+            </div>
+        </section>
+            
+        <section class="testimonial">
+            <p class="testimonial-text"><i>"Lorem ipsum dolor sit amet, 
+                consectetur adipiscing elit, sed do eiusmod tempor 
+                incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation 
+                ullamco laboris nisi ut aliquip ex ea commodo 
+                consequat."</i></p>
+                <p class="testimonial-name"><br><i>- George Clooney</i></span></p>
+        </section>
+
+        <section class="blog">
+            <div class="pre-blog">
+                <h2><span style="font-size: 30px;"> This is what furniture is </span></h2>
+                <p class="about-text"> <br>Lorem ipsum dolor sit amet, 
+                    consectetur adipiscing elit, sed do eiusmod tempor 
+                    incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation 
+                    ullamco laboris nisi ut aliquip ex ea commodo 
+                    consequat.</p>
+            </div>
+            <div class="width-container">
+                <div class="blog-column">
+                    <div style="position: relative;">
+                        <img class="blog-img" src="living.jpg" alt="ocean views">
+                        <p class="blog-tag">LIVING</p>
+                    </div>
+                    <div>
+                        <h3><br/><b>Ocean Views</b></h3>
+                        <p class="blog-date" style="font-size: small;"><br/><b>April 20, 2021</b></p>
+                        <p class="blog-text">Lorem ipsum dolor sit amet, 
+                            consectetur adipiscing elit, sed do eiusmod tempor 
+                            incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+                <div class="blog-column">
+                    <div style="position: relative;">
+                        <img class="blog-img" src="dining.jpg" alt="eating right">    
+                        <p class="blog-tag">DINING</p>
+                    </div>
+                    <div>
+                        <h3><br/><b>Eating Right</b></h3>
+                        <p class="blog-date" style="font-size: small;"><br/><b>April 20, 2021</b></p>
+                        <p class="blog-text">Lorem ipsum dolor sit amet, 
+                            consectetur adipiscing elit, sed do eiusmod tempor 
+                            incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+                <div class="blog-column">
+                    <div style="position: relative;">
+                        <img class="blog-img" src="lounging.jpg" alt="lounging">
+                        <p class="blog-tag">LOUNGING</p>
+                    </div>
+                    <div>
+                        <h3><br/><b>Relax? Let's do it</b></h3>
+                        <p class="blog-date" style="font-size: small;"><br/><b>April 20, 2021</b></p>
+                        <p class="blog-text">Lorem ipsum dolor sit amet, 
+                            consectetur adipiscing elit, sed do eiusmod tempor 
+                            incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+            </div>    
+        </section>
+        <section class="contact">
+            <div class="width-container">
+                <div class="contact-info">
+                    <h1>Contact Info:<br/></h1>
+                    <p class="contact-text"><br>Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing elit, sed do eiusmod tempor 
+                        incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation 
+                        ullamco laboris nisi ut aliquip ex ea commodo 
+                        consequat.</p>
+                    
+                    <p class="contact-text"><br><b>Address:</b> 10111 Santa Monica Boulevard, LA</p>
+                    <p class="contact-text"><br><b>Phone</b> +44 987 065 908</p>
+                    <p class="contact-text"><br><b>Email:</b> info@example.com</p>
+                    <p class="contact-text"><br><b>Fax:</b> +44 987 065 909</p>
+                </div>
+                <div class="comments">
+                    <form class="form" action="https://mailthis.to/mjcb32@mun.ca" method="POST">
+                        <input type="text" id="Name" name="Name" placeholder="Your Name" class="form-name"><input type="email" id="email" name="email" placeholder="Your Email" class="form-email">
+                        <input type="text" id="Title" name="Title" placeholder="Your Title" class="form-title">
+                        <textarea name="Comment" class="form-comments" placeholder="Your Comments"></textarea>
+                        <input type="submit" name="Submit" value="SEND MESSAGE" class="form-submit-button">
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer-about">
+                <h3 style="font-size: 24px;">About This Website</h3>
+                <br/><p class="footer-text">Lorem ipsum dolor sit amet, 
+                    consectetur adipiscing elit, sed do eiusmod tempor 
+                    incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="media-icons">
+                <i class="fab fa-github-square fa-2x" style="padding-top: 1rem;"></i>
+                <i class="fab fa-linkedin fa-2x" style="padding-top: 1rem;padding-left: 1rem;"></i>
+            </div>
+        </footer>
+    
+        <script>
+            mybutton = document.getElementById("TopButton");
+            
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+                if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            }
+            
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+            </script>
+            
+    </body>
+</html>
