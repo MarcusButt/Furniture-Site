@@ -4,6 +4,21 @@ p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.width-container{
+    max-width: 1400px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.text-width-container {
+    background-color: whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70%;
+}
+
 .hero {background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
 url(img/hero.jpg);
 height: 90vh;
@@ -27,21 +42,23 @@ padding-top: 20px;
 padding-left: 20px;}
 
 .about {text-align: center;
-align-items: center;
-word-wrap:normal;
 position:relative;
-padding-top: 90px;
-padding-bottom: 90px;}
+background-color: whitesmoke;
+margin-left: auto;
+margin-right: auto;
+padding-top: 6%;
+padding-bottom: 6%;}
 
 .about-text {text-align: center;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
-padding-left: 22%;
-padding-right: 22%;
+max-width: 960px;
+margin-left: auto;
+margin-right: auto;
 word-wrap: normal;}
 
 .icon {display: flex;
-padding-top: 4rem;
-padding-bottom: 4rem;
+padding-top: 5%;
+padding-bottom: 5%;
 padding-left: 10%;
 padding-right: 10%;
 background-color: rgb(41, 41, 41);
@@ -49,7 +66,7 @@ justify-content: space-between;}
 
 .icon-text {color: whitesmoke;
 position: relative;
-padding-left: 1rem;
+padding-left: 7%;
 font-family: Arial, Helvetica, sans-serif;
 text-align: left;
 font-size: medium;
@@ -61,18 +78,20 @@ line-height: 20px;}
 
 .column {float: left;
 display: flex;
+justify-content: center;
 align-items: center;
 width: 25%;
-padding: 2rem;
-padding-left: 2.5rem;
-padding-right: 2.5rem;
+padding: 3%;
 word-wrap: normal;}
 
-.pre-grid {padding-top: 60px;
-padding-bottom: 20px;
+.pre-grid {padding-top: 6%;
+padding-bottom: 2%;
 background-color: whitesmoke;
-text-align: center;
-justify-content: center;}
+text-align: center;}
+
+.grid {
+    background-color: whitesmoke;
+}
 
 .image-grid {display: grid;
 background-color: whitesmoke;
@@ -138,18 +157,18 @@ line-height: 24px;}
 
 .blog{position: relative;
 background-color: whitesmoke;
-padding-bottom: 2rem;
-padding-left: 4rem;
-padding-right: 4rem;
+padding-bottom: 2%;
+padding-left: 4%;
+padding-right: 4%;
 overflow: auto;
 }
 
-.width-container{
-    max-width: 1400px;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-}
+.pre-blog {padding-top: 6%;
+    padding-bottom: 4%;
+    position: relative;
+    background-color: whitesmoke;
+    text-align: center;
+    justify-content: center;}
 
 .blog-column{float:left;
 width:33.33%;
@@ -176,13 +195,6 @@ font-size: 15px;
 .blog-column h3{padding-left: 1rem;
 background-color: white;
 text-align: left;}
-
-.pre-blog {padding-top: 60px;
-padding-bottom: 40px;
-position: relative;
-background-color: whitesmoke;
-text-align: center;
-justify-content: center;}
 
 .blog-tag{position:absolute;
 text-align: center;
