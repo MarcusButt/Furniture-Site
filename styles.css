@@ -322,6 +322,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif}
     
     .width-container{
         display: inline-block;
+        text-align: center;
         }
     
     .column{
@@ -428,6 +429,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif}
     
     .width-container{
         display: block;
+        text-align: center;
     }
 
     .column{
