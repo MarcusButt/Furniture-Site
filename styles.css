@@ -82,7 +82,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 width: 25%;
-padding: 3%;
+padding: 4%;
 word-wrap: normal;}
 
 .pre-grid {padding-top: 6%;
@@ -229,12 +229,12 @@ color: rgb(71, 73, 73);}
 
 .comments{width: 60%;
 padding-top: 4%;
-padding-left: 4%;
+padding-left: 5%;
 justify-content: center;
 display: flex;
 text-align: left;}
 
-.form{width: 100%;}
+.form{width: 98%;}
 
 .form-name{color: rgb(93, 93, 97);
 width: 47%;
@@ -342,6 +342,7 @@ color: whitesmoke;
     .image-grid {
     grid-template-columns:  repeat(2, 44%);
     grid-template-rows: repeat(6, 15%);
+    gap: 2%;
     }
 
     .grid-text{
@@ -391,6 +392,7 @@ color: whitesmoke;
     .comments{
         width: 100%;
         padding-top: 5%;
+        padding-right: 5%;
         display: block;
     }
 
@@ -440,8 +442,6 @@ color: whitesmoke;
     .icon{display: block;
         height: auto;
         overflow: auto;
-        padding-top: 3rem;
-        padding-bottom: 3rem;
     }
 
     .icon-text{
@@ -457,14 +457,13 @@ color: whitesmoke;
     }
 
     .grid{
-        padding-bottom: 2rem;
         background-color: whitesmoke;
     }
 
     .image-grid {
         grid-template-columns:  repeat(2, 44%);
-        grid-template-rows: repeat(6, 16%);
-        gap: 0.75rem;
+        grid-template-rows: repeat(6, 15%);
+        gap: 2%;
         }
 
     .grid-text{
