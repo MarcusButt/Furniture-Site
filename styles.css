@@ -5,11 +5,12 @@ p{
 }
 
 .width-container{
-    max-width: 1400px;
+    max-width: 1000px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
     display: flex;
+    justify-content: space-between;
 }
 
 .text-width-container {
@@ -91,15 +92,15 @@ text-align: center;}
 
 .grid {
 background-color: whitesmoke;
+padding-bottom: 5%;
 }
 
 .image-grid {display: grid;
 background-color: whitesmoke;
-gap: 2rem;
-grid-template-columns:  repeat(3, 306px);
-grid-template-rows: repeat(4, 200px);
-padding-top: 3%;
-padding-bottom: 3%;
+gap: 3%;
+grid-template-columns:  repeat(3);
+grid-template-rows: repeat(4);
+padding-top: 2%;
 object-fit: contain;
 justify-content: center;
 }
@@ -171,8 +172,7 @@ text-align: center;
 justify-content: center;}
 
 .blog-column{float:left;
-width:33.33%;
-padding:20px;
+width: 31%;
 background-color: whitesmoke;}
 
 .blog-img{width: 100%;
@@ -228,11 +228,12 @@ color: rgb(71, 73, 73);}
 
 .comments{width: 60%;
 padding-top: 4%;
+padding-left: 4%;
 justify-content: center;
 display: flex;
 text-align: left;}
 
-.form{width: 80%;}
+.form{width: 100%;}
 
 .form-name{color: rgb(93, 93, 97);
 width: 47%;
@@ -264,7 +265,7 @@ font-size: medium;}
 
 .form-submit-button{background: rgb(41, 41, 41);
 background-color: rgb(41, 41, 41);
-width: 25%;
+width: 30%;
 padding: 2.5%;
 color: whitesmoke;
 align-self: center;
