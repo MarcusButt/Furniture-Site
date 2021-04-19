@@ -299,7 +299,6 @@ font-family: Verdana, Geneva, Tahoma, sans-serif}
 
 .media-icons{
 color: whitesmoke;
-display: flex;
 }
 
 #TopButton {
@@ -406,7 +405,7 @@ display: flex;
     }
 
     .form-submit-button{
-        min-width: 33%;
+        min-width: 35%;
     }
 
     footer{
