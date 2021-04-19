@@ -286,7 +286,7 @@ footer{background-color: rgb(41, 41, 41);
 color: whitesmoke;
 padding-top: 4%;
 padding-bottom: 4%;
-padding-left: 5%;}
+}
 
 .footer-about{
 width:20%;
@@ -299,6 +299,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif}
 
 .media-icons{
 color: whitesmoke;
+display: flex;
 }
 
 #TopButton {
@@ -402,6 +403,10 @@ color: whitesmoke;
 
     .form-email{
         width: 100%;
+    }
+
+    .form-submit-button{
+        min-width: 33%;
     }
 
     footer{
@@ -520,6 +525,10 @@ color: whitesmoke;
 
     .form-email{
         width: 100%;
+    }
+
+    .form-submit-button{
+        width: 50%;
     }
 
     footer{
