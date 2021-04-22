@@ -301,6 +301,15 @@ font-family: Verdana, Geneva, Tahoma, sans-serif}
 color: whitesmoke;
 }
 
+a:visited { 
+    text-decoration: none; 
+    color: white; 
+   }
+
+a:active {
+    color:rgb(80, 83, 83)
+}
+
 #TopButton {
     display: none;
     position: fixed;
